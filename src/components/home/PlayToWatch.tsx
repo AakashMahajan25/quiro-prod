@@ -48,13 +48,13 @@ const PlayToWatch: React.FC = () => {
             minWidth: "140px",
           }}
         >
-          <video
-         
-            className="w-full max-w-[530px] lg:max-w-full  h-auto aspect-video p-2 rounded-3xl relative z-50"
-            src="/videos/comingsoon.mp4"
+          <iframe
+            className="w-full max-w-[530px] lg:max-w-full h-auto aspect-video p-2 rounded-3xl relative z-50"
+            src="https://www.youtube.com/embed/fMWJF6H-BrY"
             title="YouTube video player"
-            controls
-          ></video>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
       <Image
