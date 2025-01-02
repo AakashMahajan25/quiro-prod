@@ -4,33 +4,17 @@ import { MdOutlineArrowDropDownCircle } from "react-icons/md";
 
 const privacypolicy = () => {
   return (
-    <div className="bg-[#191919] text-[#FFFFFFCF] min-h-screen px-[20px] sm:px-[60px] lg:px-[100px] 3xl:px-[150px] py-[20px] sm:py-[60px] lg:py-[100px] 3xl:py-[150px] mt-[30px]">
+    <div className="text-[#191919] min-h-screen px-[20px] sm:px-[60px] lg:px-[100px] 3xl:px-[150px] py-[20px] sm:py-[60px] lg:py-[100px] 3xl:py-[150px] mt-[30px]">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-[40px] font-bold mb-6 relative after:content-[''] after:block after:w-full after:h-[0.5px] after:bg-[#FFFFFFCF] after:mt-4">
+        <h1 className="text-[40px] font-bold mb-6 relative after:content-[''] after:block after:w-full after:h-[0.5px] after:bg-[#191919] after:mt-4">
           Privacy Policy
-          <div className="flex flex-row mt-3">
-            <div className=" font-normal mr-12">
-              <p className="flex items-center text-[12px] mb-2 opacity-50">
-                <LuClock9 className="mr-1" /> Last edited time
-              </p>
-
-              <p className="flex items-center text-[12px] opacity-50">
-                <MdOutlineArrowDropDownCircle className="mr-1" /> Status
-              </p>
-            </div>
-            <div className="text-[12px] font-normal">
-              <p className="mb-2 ">November 13, 2024 3:15 PM</p>
-
-              <p className="opacity-50">Empty</p>
-            </div>
-          </div>
         </h1>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
           <p className="text-sm">
-            Witsome Tech Private Limited and/or its affiliates ("Quiro" the
-            "Company," "we," "us," and "our,") respect your privacy and are
+            Witsome Tech Private Limited and/or its affiliates (&quot;Quiro&quot; the
+            &quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; and &quot;our,&quot;) respect your privacy and are
             committed to protecting it through its compliance with its privacy
             policies. This policy describes:
           </p>
@@ -38,7 +22,7 @@ const privacypolicy = () => {
             <li>
               The types of information that Quiro may collect from you when you
               access or use its websites, applications, and other online
-              services (collectively, referred to as "Services");
+              services (collectively, referred to as &quot;Services&quot;);
             </li>
             <li>
               Its practices for collecting, using, maintaining, protecting, and
@@ -51,11 +35,11 @@ const privacypolicy = () => {
             sent through or in connection with its Services.
           </p>
           <p className="text-sm mt-1">
-            Please read this policy carefully to understand Quiro's policies and
+            Please read this policy carefully to understand Quiro&apos;s policies and
             practices regarding your information and how Quiro will treat it. By
             accessing or using its Services and/or registering for an account
             with Quiro, you agree to this privacy policy and you are consenting
-            to Quiro's collection, use, disclosure, retention, and protection of
+            to Quiro&apos;s collection, use, disclosure, retention, and protection of
             your personal information as described here. If you do not provide
             the information Quiro requires, Quiro may not be able to provide all
             of its Services to you.
@@ -119,9 +103,9 @@ const privacypolicy = () => {
             The Information We Collect and How We Use It
           </h2>
           <p className="text-sm">
-            A "customer" refers to an individual or entity using our services,
+            A &quot;customer&quot; refers to an individual or entity using our services,
             such as end-users ordering food or making requests via our web app.
-            A "client" refers to businesses, like hotels or restaurants, that
+            A &quot;client&quot; refers to businesses, like hotels or restaurants, that
             utilize our app and services for their operations.
           </p>
           <hr className="opacity-50 mt-2" />
@@ -138,7 +122,7 @@ const privacypolicy = () => {
           <ul className=" list-disc text-sm mt-4 pl-6">
             <li>
               <strong>Account Information:</strong> When individuals or entities
-              (referred to as "Customers") use our services, they provide
+              (referred to as &quot;Customers&quot;) use our services, they provide
               personal information such as names, email addresses, and other
               relevant details during the registration process on our web app.
             </li>
@@ -149,7 +133,7 @@ const privacypolicy = () => {
             </li>
             <li>
               <strong>Customization Preferences:</strong> We collect information
-              about Customers' preferences and settings within the Quiro
+              about Customers&apos; preferences and settings within the Quiro
               platform to tailor our services to their specific requirements.
             </li>
           </ul>
@@ -547,7 +531,7 @@ const privacypolicy = () => {
             or through other communication channels.
           </p>
           <p className="mt-1">
-            It's advisable to review this Privacy Policy periodically to stay
+            It&apos;s advisable to review this Privacy Policy periodically to stay
             informed about how we collect, use, and protect your information.
             Your continued use of the Quiro platform after any modifications to
             the Privacy Policy constitutes your acceptance of those changes.
@@ -562,8 +546,8 @@ const privacypolicy = () => {
             any inquiries or need further clarification regarding this Privacy
             Policy or our data practices, please do not hesitate to contact us
             at{" "}
-            <a href="mailto:info@witsome.in" className="underline inline">
-              info@witsome.in
+            <a href="mailto:info@quiro.in" className="underline inline">
+              info@quiro.in
             </a>
             .
           </p>
@@ -586,8 +570,8 @@ const privacypolicy = () => {
             Gurgaon-122001, Haryana
           </p>
           <p>
-            <a href="mailto:info@witsome.in" className="underline inline">
-              info@witsome.in
+            <a href="mailto:info@quiro.in" className="underline inline">
+              info@quiro.in
             </a>
           </p>
         </section>

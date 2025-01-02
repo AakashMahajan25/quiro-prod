@@ -3,28 +3,12 @@ import React from "react";
 import { LuClock9 } from "react-icons/lu";
 import { MdOutlineArrowDropDownCircle } from "react-icons/md";
 
-const refundpolicy = () => {
+const RefundPolicy = () => {
   return (
-    <div className="bg-[#191919] text-[#FFFFFFCF] min-h-screen px-[20px] sm:px-[60px] lg:px-[100px] 3xl:px-[150px] py-[20px] sm:py-[60px] lg:py-[100px] 3xl:py-[150px] mt-[30px]">
+    <div className=" text-[#191919] min-h-screen px-[20px] sm:px-[60px] lg:px-[100px] 3xl:px-[150px] py-[20px] sm:py-[60px] lg:py-[100px] 3xl:py-[150px] mt-[30px]">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-[40px] font-bold mb-6 relative after:content-[''] after:block after:w-full after:h-[0.5px] after:bg-[#FFFFFFCF] after:mt-4">
+        <h1 className="text-[40px] font-bold mb-6 relative after:content-[''] after:block after:w-full after:h-[0.5px] after:bg-[#191919] after:mt-4">
           Refund & Cancellation Policy
-          <div className="flex flex-row mt-3">
-            <div className=" font-normal mr-12">
-              <p className="flex items-center text-[12px] mb-2 opacity-50">
-                <LuClock9 className="mr-1" /> Last edited time
-              </p>
-
-              <p className="flex items-center text-[12px] opacity-50">
-                <MdOutlineArrowDropDownCircle className="mr-1" /> Status
-              </p>
-            </div>
-            <div className="text-[12px] font-normal">
-              <p className="mb-2 ">October 7, 2024 4:23 PM</p>
-
-              <p className="opacity-50">Empty</p>
-            </div>
-          </div>
         </h1>
 
         <section className="mb-8">
@@ -92,7 +76,7 @@ const refundpolicy = () => {
                 </li>
                 <li>
                   The final decision on refund approval rests with the{" "}
-                  <strong>property’s management</strong> after thoroughly
+                  <strong>property&apos;s management</strong> after thoroughly
                   reviewing the issue.
                 </li>
                 <li>
@@ -107,7 +91,7 @@ const refundpolicy = () => {
               <ul className="ml-4 list-disc">
                 <li>
                   <strong>Step 1:</strong> <strong>Initiate Request:</strong>{" "}
-                  Contact the property’s staff in person or call us at{" "}
+                  Contact the property&apos;s staff in person or call us at{" "}
                   <strong>+91 9897510877</strong> to initiate your refund
                   request. Please provide your original transaction receipt and
                   a detailed explanation of the issue.
@@ -120,7 +104,7 @@ const refundpolicy = () => {
                 </li>
                 <li>
                   <strong>Step 3:</strong>{" "}
-                  <strong>Decision (5-7 Business Days):</strong> The property’s
+                  <strong>Decision (5-7 Business Days):</strong> The property&apos;s
                   management will review your request, and you will be informed
                   of the final decision within{" "}
                   <strong>5-7 business days</strong>.
@@ -184,7 +168,7 @@ const refundpolicy = () => {
                 </li>
                 <li>
                   Call us at <strong>+91 9897510877</strong> or visit the
-                  property’s reception to request a cancellation. Please have
+                  property&apos;s reception to request a cancellation. Please have
                   your booking details or transaction receipt ready.
                 </li>
               </ul>
@@ -203,7 +187,7 @@ const refundpolicy = () => {
                 <li>
                   <strong>Step 2:</strong>{" "}
                   <strong>Evaluation and Approval (0-3 Business Days):</strong>{" "}
-                  The property’s management will review your cancellation
+                  The property&apos;s management will review your cancellation
                   request within <strong>3 business days</strong> and decide
                   whether the cancellation can be processed.
                 </li>
@@ -220,7 +204,7 @@ const refundpolicy = () => {
             </li>
 
             <li className="mt-2">
-              <strong>Admin's Right to Cancel:</strong>
+              <strong>Admin&apos;s Right to Cancel:</strong>
               <ul className="ml-4 list-disc">
                 <li>
                   The <strong>admin reserves the right</strong> to cancel any
@@ -267,19 +251,14 @@ const refundpolicy = () => {
           <p className="text-sm">
             Quiro reserves the right to modify this Refund and Cancellation
             Policy at any time. Any changes will be posted on our website at{" "}
-            <a
-              href="https://www.quiro.in/refund-policy"
-              className="text-blue-500"
-            >
+            <Link href="https://www.quiro.in/refund-policy" className="text-blue-500">
               quiro.in
-            </a>
-            , and it is the customer’s responsibility to review the policy
+            </Link>
+            , and it is the customer&apos;s responsibility to review the policy
             periodically for updates.
           </p>
           <hr className="opacity-50 mt-2" />
         </section>
-
-        
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">
@@ -367,13 +346,11 @@ const refundpolicy = () => {
           <hr className="opacity-50 mt-2" />
         </section>
 
-        
-
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Legal Disclaimer</h2>
           <p className="text-sm">
             This Refund Policy is governed by the laws of India. By using
-            Quiro's services, you agree to this policy and the terms and
+            Quiro&apos;s services, you agree to this policy and the terms and
             conditions stated herein. This policy does not affect your statutory
             rights.
           </p>
@@ -381,18 +358,16 @@ const refundpolicy = () => {
             For a detailed understanding of your rights and obligations, please
             refer to our{" "}
             <Link href="/termsofservices">
-              <p className="underline inline">Terms of Service</p>
+              <span className="underline">Terms of Service</span>
             </Link>{" "}
             and{" "}
             <Link href="https://www.quiro.in/privacy">
-              <p className="underline inline">Privacy Policy</p>
+              <span className="underline">Privacy Policy</span>
             </Link>
             .
           </p>
           <hr className="opacity-50 mt-2" />
         </section>
-
-        
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
@@ -401,9 +376,9 @@ const refundpolicy = () => {
             any inquiries or need further clarification regarding this Refund
             Policy or our payment practices, please do not hesitate to contact
             us at{" "}
-            <a href="mailto:info@witsome.in" className="underline inline">
-              info@witsome.in
-            </a>
+            <Link href="mailto:info@quiro.in" className="underline">
+              info@quiro.in
+            </Link>
             . Our dedicated team is here to address your concerns and provide
             assistance.
           </p>
@@ -420,9 +395,9 @@ const refundpolicy = () => {
             Gurgaon- 122001, Haryana
           </p>
           <p className="text-sm mt-1">
-            <a href="mailto:info@witsome.in" className="underline inline">
-              info@witsome.in
-            </a>
+            <Link href="mailto:info@quiro.in" className="underline">
+              info@quiro.in
+            </Link>
           </p>
         </section>
       </div>
@@ -430,4 +405,4 @@ const refundpolicy = () => {
   );
 };
 
-export default refundpolicy;
+export default RefundPolicy;

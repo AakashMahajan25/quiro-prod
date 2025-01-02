@@ -163,7 +163,7 @@ const Form: React.FC = () => {
                 <HiLocationMarker className="text-[18px] sm:text-[21px] lg:text-[26px] 3xl:text-[40px]" />
               </div>
               <div className="text-[10px] lg:text-[16px] 3xl:text-[18px] leading-[15px] font-[500]">
-              sector 44, Gurugram
+              Sector 44, Gurugram
               </div>
             </div>
           </div>

@@ -2,9 +2,9 @@ import React from "react";
 
 const TermsOfService = () => {
   return (
-    <div className="bg-[#191919] text-[#FFFFFFCF] min-h-screen px-[20px] sm:px-[60px] lg:px-[100px] 3xl:px-[150px] py-[20px] sm:py-[60px] lg:py-[100px] 3xl:py-[150px] mt-[30px]">
+    <div className="text-[#191919] min-h-screen px-[20px] sm:px-[60px] lg:px-[100px] 3xl:px-[150px] py-[20px] sm:py-[60px] lg:py-[100px] 3xl:py-[150px] mt-[30px]">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-[40px] font-bold mb-6 relative after:content-[''] after:block after:w-full after:h-[0.5px] after:bg-[#FFFFFFCF] after:mt-4">
+        <h1 className="text-[40px] font-bold mb-6 relative after:content-[''] after:block after:w-full after:h-[0.5px] after:bg-[#191919] after:mt-4">
           Terms of Service
         </h1>
 
@@ -13,8 +13,8 @@ const TermsOfService = () => {
           <p className="text-sm">
             Welcome to Quiro, a product by{" "}
             <strong>Witsome Tech Private Limited</strong>. These Terms of
-            Service ("Terms") govern your access and use of our platform,
-            services, and applications (collectively referred to as "Services").
+            Service (&quot;Terms&quot;) govern your access and use of our platform,
+            services, and applications (collectively referred to as &quot;Services&quot;).
             By accessing or using our Services, you agree to comply with and be
             bound by these Terms.
           </p>
@@ -23,9 +23,9 @@ const TermsOfService = () => {
             managing their properties efficiently while offering end-customers
             the ability to avail themselves of various hotel services
             seamlessly. These Terms form a legally binding agreement between you
-            ("User," "Client," or "Customer") and
-            <strong> Witsome Tech Private Limited</strong> ("Quiro," "we," "us,"
-            or "our").
+            (&quot;User,&quot; &quot;Client,&quot; or &quot;Customer&quot;) and
+            <strong> Witsome Tech Private Limited</strong> (&quot;Quiro,&quot; &quot;we,&quot; &quot;us,&quot;
+            or &quot;our&quot;).
           </p>
           <hr className="opacity-50 mt-2" />
         </section>
@@ -111,7 +111,7 @@ const TermsOfService = () => {
             intellectual property rights in and to its platform, including but
             not limited to software, logos, trademarks, and proprietary content.
             Users may not reproduce, distribute, or create derivative works
-            based on Quiro's intellectual property without explicit permission.
+            based on Quiro&apos;s intellectual property without explicit permission.
           </p>
           <p className="text-sm">
             <strong>User Content:</strong> Users retain ownership of the content
@@ -135,7 +135,7 @@ const TermsOfService = () => {
           <h3 className="text-xl font-semibold mb-2">Prohibited Use</h3>
           <p className="text-sm">
             You agree not to reverse engineer, decompile, or disassemble any
-            part of the Quiro platform. Unauthorized use of Quiro's intellectual
+            part of the Quiro platform. Unauthorized use of Quiro&apos;s intellectual
             property may result in legal action.
           </p>
           <hr className="opacity-50 mt-2" />
@@ -153,7 +153,7 @@ const TermsOfService = () => {
           </p>
           <p className="text-sm">
             <strong>Termination by Quiro:</strong> Quiro reserves the right to
-            suspend or terminate a Client's access to the Services if there is a
+            suspend or terminate a Client&apos;s access to the Services if there is a
             breach of these Terms, non-payment of subscription fees, or for any
             reason deemed necessary for the security and integrity of the
             platform.
@@ -164,7 +164,7 @@ const TermsOfService = () => {
           <p className="text-sm">
             <strong>Account Termination:</strong> Customers may terminate their
             accounts by following the instructions provided on the platform.
-            Quiro will delete or anonymize the user's data in accordance with
+            Quiro will delete or anonymize the user&apos;s data in accordance with
             our Privacy Policy.
           </p>
           <p className="text-sm">
@@ -181,8 +181,8 @@ const TermsOfService = () => {
             Disclaimer of Warranties
           </h2>
           <p className="text-sm">
-            <strong>As-Is Basis:</strong> Quiro's Services are provided on an
-            "as-is" and "as-available" basis. Quiro disclaims all warranties,
+            <strong>As-Is Basis:</strong> Quiro&apos;s Services are provided on an
+            &quot;as-is&quot; and &quot;as-available&quot; basis. Quiro disclaims all warranties,
             express or implied, including but not limited to merchantability,
             fitness for a particular purpose, and non-infringement.
           </p>
@@ -213,7 +213,7 @@ const TermsOfService = () => {
             limited to loss of profits, data, or business opportunities.
           </p>
           <p className="text-sm">
-            <strong>Liability Cap:</strong> Quiro's total liability, whether in
+            <strong>Liability Cap:</strong> Quiro&apos;s total liability, whether in
             contract, tort, or otherwise, shall not exceed the amount paid by
             the user for the specific service giving rise to the claim.
           </p>
@@ -229,7 +229,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Indemnification</h2>
           <p className="text-sm">
-            By using Quiro's Services, you agree to indemnify, defend, and hold
+            By using Quiro&apos;s Services, you agree to indemnify, defend, and hold
             harmless Quiro, its affiliates, officers, directors, employees, and
             agents from any claims, liabilities, damages, losses, or expenses
             arising out of or related to your use of our platform, violation of
@@ -270,8 +270,8 @@ const TermsOfService = () => {
             Your questions and concerns about Terms of service matter to us. If
             you have any inquiries or need further clarification regarding these
             Terms of service, please do not hesitate to contact us at{" "}
-            <a href="mailto:info@witsome.in" className="underline inline">
-              info@witsome.in
+            <a href="mailto:info@quiro.in" className="underline inline">
+              info@quiro.in
             </a>
             . Our dedicated team is here to address your concerns and provide
             assistance.
@@ -287,8 +287,8 @@ const TermsOfService = () => {
             Gurgaon- 122001, Haryana
           </p>
           <p className="text-sm">
-            <a href="mailto:info@witsome.in" className="underline inline">
-              info@witsome.in
+            <a href="mailto:info@quiro.in" className="underline inline">
+              info@quiro.in
             </a>
           </p>
         </section>

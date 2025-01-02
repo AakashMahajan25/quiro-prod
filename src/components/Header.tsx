@@ -75,7 +75,7 @@ const Header: React.FC = () => {
             </Link>
           ))}
           <div className="pt-4">
-            <Link href={"/form"}>
+            <Link href={"/form"} onClick={() => setIsMenuOpen(false)}>
             <LineButton text="Get Started" />
             </Link>
           </div>
