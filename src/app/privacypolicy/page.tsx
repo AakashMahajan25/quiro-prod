@@ -1,6 +1,4 @@
 import React from "react";
-import { LuClock9 } from "react-icons/lu";
-import { MdOutlineArrowDropDownCircle } from "react-icons/md";
 
 const privacypolicy = () => {
   return (
