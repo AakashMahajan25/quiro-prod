@@ -74,7 +74,8 @@ const Footer: React.FC = () => {
                   Address
                 </h1>
                 <p className="text-sm lg:text-base sm:text-[10px] text-[#F5F3ED]">
-                2nd FLOOR, PLOT NO.4, Minarch Tower, Sector 44, Gurgaon, Haryana - 122003
+                  2nd FLOOR, PLOT NO.4, Minarch Tower, Sector 44, Gurgaon,
+                  Haryana - 122003
                 </p>
               </div>
               <div>
@@ -154,17 +155,29 @@ const Footer: React.FC = () => {
             © 2024 Quiro Horizon Private Limited. All rights reserved.
           </p>
           <ul className="flex mx-auto sm:mx-0 space-x-4 mt-6 self-end">
-            <Link href={"https://quiro.notion.site/Refund-Cancellation-Policy-d0bdc5883c104dd094198e038b20ad6b"}>
+            <Link
+              href={
+                "/refundpolicy"
+              }
+            >
               <li className="cursor-pointer hover:underline text-[#00413ECC] text-[10px] sm:text-[8px] lg:text-sm 3xl:text-[16px] border-b border-b-[#00413ECC] hover:border-b-0">
                 Refund Policy
               </li>
             </Link>
-            <Link href={"https://quiro.notion.site/Terms-of-Service-af45704a9c39497198698e7047c1dd86"}>
+            <Link
+              href={
+                "/termsofservices"
+              }
+            >
               <li className="cursor-pointer hover:underline text-[#00413ECC] text-[10px] sm:text-[8px] lg:text-sm 3xl:text-[16px] border-b border-b-[#00413ECC] hover:border-b-0">
                 Terms & Condition
               </li>
             </Link>
-            <Link href={"https://quiro.notion.site/Privacy-Policy-2ed849fde2934598aa68e033d6a6accf"}>
+            <Link
+              href={
+                "/privacypolicy"
+              }
+            >
               <li className="cursor-pointer hover:underline text-[#00413ECC] text-[10px] sm:text-[8px] lg:text-sm 3xl:text-[16px] border-b border-b-[#00413ECC] hover:border-b-0">
                 Privacy Policy
               </li>
@@ -173,26 +186,24 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <h1 className="text-center font-[400] sm:text-lg text-[10px] text-[#00413ECC] pb-4">
-  Crafted with{" "}
-  <span className="inline-block text-[#006B66] align-middle">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      height="20px"
-      viewBox="0 0 24 24"
-      width="20px"
-      fill="#006B66"
-    >
-      <path d="M0 0h24v24H0V0z" fill="none" />
-      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-    </svg>
-  </span>{" "}
-  by{" "}
-  <a href="https://www.yourwebsite.shop/" className="">
-    YourWebsite.shop
-  </a>
-</h1>
-
-
+        Crafted with{" "}
+        <span className="inline-block text-[#006B66] align-middle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="20px"
+            viewBox="0 0 24 24"
+            width="20px"
+            fill="#006B66"
+          >
+            <path d="M0 0h24v24H0V0z" fill="none" />
+            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+          </svg>
+        </span>{" "}
+        by{" "}
+        <a href="https://www.yourwebsite.shop/" className="">
+          YourWebsite.shop
+        </a>
+      </h1>
     </>
   );
 };

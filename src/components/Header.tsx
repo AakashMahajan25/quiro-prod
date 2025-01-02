@@ -56,7 +56,7 @@ const Header: React.FC = () => {
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 xl:hidden`}
       >
-        <div className="flex flex-col p-8 space-y-4">
+        <div className="flex flex-col p-10 space-y-4">
           {[
             { href: "/aboutus", label: "About us" },
             { href: "/business", label: "For Businesses" },
@@ -75,7 +75,9 @@ const Header: React.FC = () => {
             </Link>
           ))}
           <div className="pt-4">
+            <Link href={"/form"}>
             <LineButton text="Get Started" />
+            </Link>
           </div>
         </div>
       </div>

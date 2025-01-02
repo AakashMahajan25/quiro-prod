@@ -100,7 +100,7 @@ const Control: React.FC = () => {
                     className="absolute top-0 left-0 w-full h-full object-cover z-0 rounded-[6px]"
                   />
                   <div className="relative z-10 pt-[6px] lg:pt-[10px]  pl-[4px] lg:pl-[10px] pr-[10px]">
-                    <div className="text-[8px]  lg:text-[10px] 3xl:text-[13px] leading-[8px] lg:leading-[10.45px] font-[500] rounded-[6px] py-[2px] px-[6px] xl:px-[2px] flex items-center gap-2 bg-[#F5F3ED] lg:py-[2px] 3xl:py-[4px] lg:pr-[14px] justify-between lg:mb-[177px]">
+                    <div className="text-[8px]  lg:text-[10px] 3xl:text-[13px] leading-[8px] lg:leading-[10.45px] font-[500] rounded-[6px] py-[2px] px-[6px] xl:px-[2px] flex items-center gap-2 bg-[#F5F3ED] lg:py-[2px] 3xl:py-[4px] lg:pr-[14px] lg:px-[12.86px] 3xl:px-[16px] justify-between lg:mb-[177px]">
                       Qr Based Ordering
                       <Link href="/customers">
                         <ChevronCircle variant="dark" />

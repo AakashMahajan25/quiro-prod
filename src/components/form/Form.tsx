@@ -155,7 +155,7 @@ const Form: React.FC = () => {
                 <GrMail className="text-[18px] sm:text-[21px] lg:text-[26px] 3xl:text-[40px]" />
               </div>
               <div className="text-[10px] lg:text-[16px] 3xl:text-[18px]  leading-[15px] font-[500]">
-                info@witsome.in
+              info@quiro.in
               </div>
             </div>
             <div className="flex items-center gap-[8px] lg:gap-[19.53px] 3xl:gap-[30px] mt-[18px] 3xl:mt-[27px]">
@@ -163,7 +163,7 @@ const Form: React.FC = () => {
                 <HiLocationMarker className="text-[18px] sm:text-[21px] lg:text-[26px] 3xl:text-[40px]" />
               </div>
               <div className="text-[10px] lg:text-[16px] 3xl:text-[18px] leading-[15px] font-[500]">
-                Gurugram, India
+              sector 44, Gurugram
               </div>
             </div>
           </div>
