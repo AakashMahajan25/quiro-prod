@@ -12,30 +12,34 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 
 import profile1 from "../../assets/aboutus/Team/profile.1.png";
-import profile2 from "../../assets/aboutus/Team/faceprofile.2.png";
 import profile3 from "../../assets/aboutus/Team/faceProfile3.png";
 import profile4 from "../../assets/aboutus/Team/faceprofile.4.png";
 import profile5 from "../../assets/aboutus/Team/faceprofile.5.png";
 import profile6 from "../../assets/aboutus/Team/faceprofile.6.png";
 import profile7 from "../../assets/aboutus/Team/faceprofile.7.png";
 import profile8 from "../../assets/aboutus/Team/profile8.png";
-import profile9 from "../../assets/aboutus/Team/faceprofile.9.png";
 
 // Team members data
 const teamMembers = [
   { profileImage: profile1, name: "Yash Kumar", text: "Founder & CEO" },
-  { profileImage: profile2, name: "Gurman Singh", text: "Founder’s Office" },
+  { profileImage: profile7, name: "Vikrant Vasu", text: "Operations Team" },
   { profileImage: profile3, name: "Shikhir Kalia", text: "Fractional CTO" },
-  { profileImage: profile4, name: "Sumit Jain", text: "Partner" },
+  { profileImage: profile8, name: "Aakash Mahajan", text: "Head Of Technology" },
+  { profileImage: profile8, name: "Keshav Tayal", text: "Entrepreneur in Residence" },
+  
   { profileImage: profile5, name: "Guneet Singh", text: "Partner" },
   {
     profileImage: profile6,
     name: "Aanchal Patel",
     text: "Brand & Product Designer",
   },
-  { profileImage: profile7, name: "Vikrant Vasu", text: "Operations Team" },
-  { profileImage: profile8, name: "Shruti Chauhan", text: "Founder’s Office" },
-  { profileImage: profile9, name: "Raunak Arora", text: "Product" },
+  { profileImage: profile4, name: "Sumit Jain", text: "Partner" },
+  
+  { profileImage: profile8, name: "Kunal Khandelwal", text: "Software Engineer" },
+  { profileImage: profile8, name: "Kashish Tayal", text: "Marketing Intern" },
+  { profileImage: profile8, name: "Trapti Singh", text: "Marketing Intern" },
+  { profileImage: profile8, name: "Saurabh Kumar Tiwari", text: "Development Intern" },
+  // { profileImage: profile9, name: "Raunak Arora", text: "Product" },
 ];
 
 // Helper function to chunk the team members into groups of 4
@@ -197,9 +201,9 @@ const Team: React.FC = () => {
         <div>
           <Card className="border-0 shadow-none">
             <CardContent className="relative flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
-              <div className="absolute top-1 right-5 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <div className="absolute top-5 right-8 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
               <a
-                  href="https://www.linkedin.com/in/gurman-singh-banga-264029195/"
+                  href="https://www.linkedin.com/in/vikrantvasu/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#000000] cursor-pointer"
@@ -209,16 +213,16 @@ const Team: React.FC = () => {
               </div>
 
               <Image
-                src={profile2}
-                alt="Gurman Singh's Profile"
+                src={profile7}
+                alt="Vikrant Vasu's Profile"
                 width={1000}
-                className="3xl:w-[358px] 3xl:h-[358px]  lg:w-[252.4px] lg:h-[236px]"
+                className="3xl:w-[357.74px] 3xl:h-[359.42px]  lg:w-[216px] lg:h-[236px]"
               />
               <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
-                Gurman Singh
+                Vikrant Vasu
               </p>
               <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
-                Founder&apos;s Office
+                Operations
               </p>
             </CardContent>
           </Card>
@@ -257,9 +261,9 @@ const Team: React.FC = () => {
         <div>
           <Card className="border-0 shadow-none">
             <CardContent className="relative flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
-              <div className="absolute top-5 right-7 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <div className="absolute top-1 right-5 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
               <a
-                  href="https://www.linkedin.com/in/sumitjain34/"
+                  href="https://www.linkedin.com/in/gurman-singh-banga-264029195/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#000000] cursor-pointer"
@@ -269,16 +273,46 @@ const Team: React.FC = () => {
               </div>
 
               <Image
-                src={profile4}
-                alt="Sumit Jain's Profile"
+                src={profile8}
+                alt="Gurman Singh's Profile"
                 width={1000}
-                className="3xl:w-[342.22px] 3xl:h-[375.72px]  lg:w-[241.46px] lg:h-[236px]"
+                className="3xl:w-[358px] 3xl:h-[358px]  lg:w-[252.4px] lg:h-[236px]"
               />
               <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
-                Sumit Jain
+                Aakash Mahajan
               </p>
               <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
-                Partner
+                Head Of Technology
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+        <div>
+          <Card className="border-0 shadow-none">
+            <CardContent className="relative flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
+              <div className="absolute top-1 right-5 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <a
+                  href="https://www.linkedin.com/in/gurman-singh-banga-264029195/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#000000] cursor-pointer"
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+
+              <Image
+                src={profile8}
+                alt="Gurman Singh's Profile"
+                width={1000}
+                className="3xl:w-[358px] 3xl:h-[358px]  lg:w-[252.4px] lg:h-[236px]"
+              />
+              <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
+                Keshav Tayal
+              </p>
+              <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
+              Entrepreneur in Residence 
+
               </p>
             </CardContent>
           </Card>
@@ -344,12 +378,13 @@ const Team: React.FC = () => {
           </Card>
         </div>
 
+
         <div>
           <Card className="border-0 shadow-none">
             <CardContent className="relative flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
-              <div className="absolute top-5 right-8 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <div className="absolute top-5 right-7 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
               <a
-                  href="https://www.linkedin.com/in/vikrantvasu/"
+                  href="https://www.linkedin.com/in/sumitjain34/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#000000] cursor-pointer"
@@ -359,20 +394,25 @@ const Team: React.FC = () => {
               </div>
 
               <Image
-                src={profile7}
-                alt="Vikrant Vasu's Profile"
+                src={profile4}
+                alt="Sumit Jain's Profile"
                 width={1000}
-                className="3xl:w-[357.74px] 3xl:h-[359.42px]  lg:w-[216px] lg:h-[236px]"
+                className="3xl:w-[342.22px] 3xl:h-[375.72px]  lg:w-[241.46px] lg:h-[236px]"
               />
               <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
-                Vikrant Vasu
+                Sumit Jain
               </p>
               <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
-                Operations
+                Partner
               </p>
             </CardContent>
           </Card>
         </div>
+
+        
+
+
+        
 
         <div className="">
           <Card className="border-0 shadow-none">
@@ -396,17 +436,110 @@ const Team: React.FC = () => {
               />
               <div>
                 <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
-                  Shruti Chauhan
+                  Kunal Khandelwal
                 </p>
                 <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
-                  Product
+                  Software Engineer
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="">
+          <Card className="border-0 shadow-none">
+            <CardContent className="relative  flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
+              <div className="absolute top-5 right-10 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <a
+                  href="https://www.linkedin.com/in/shrutichauhan559/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#000000] cursor-pointer"
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+
+              <Image
+                src={profile8}
+                alt="Shruti Chauhan's Profile"
+                width={1000}
+                className="3xl:w-[348.28px] 3xl:h-[359.42px]  lg:w-[227.45px] lg:h-[236px]"
+              />
+              <div>
+                <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
+                  Kashish Tayal
+                </p>
+                <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
+                  Marketing Intern
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="">
+          <Card className="border-0 shadow-none">
+            <CardContent className="relative  flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
+              <div className="absolute top-5 right-10 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <a
+                  href="https://www.linkedin.com/in/shrutichauhan559/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#000000] cursor-pointer"
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+
+              <Image
+                src={profile8}
+                alt="Shruti Chauhan's Profile"
+                width={1000}
+                className="3xl:w-[348.28px] 3xl:h-[359.42px]  lg:w-[227.45px] lg:h-[236px]"
+              />
+              <div>
+                <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
+                  Trapti Singh
+                </p>
+                <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
+                  Marketing Intern
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        <div className="">
+          <Card className="border-0 shadow-none">
+            <CardContent className="relative  flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
+              <div className="absolute top-5 right-10 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
+              <a
+                  href="https://www.linkedin.com/in/shrutichauhan559/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#000000] cursor-pointer"
+                >
+                  <FaLinkedin />
+                </a>
+              </div>
+
+              <Image
+                src={profile8}
+                alt="Shruti Chauhan's Profile"
+                width={1000}
+                className="3xl:w-[348.28px] 3xl:h-[359.42px]  lg:w-[227.45px] lg:h-[236px]"
+              />
+              <div>
+                <p className="mt-2 text-[32px] font-[400] leading-[38.4px] billyOhioText text-[#006B66]">
+                  Saurabh Kumar Tiwari
+                </p>
+                <p className="mt-1 text-center text-[18px] font-[500] leading-[21.6px] text-[#000000]">
+                  Development Intern
                 </p>
               </div>
             </CardContent>
           </Card>
         </div>
 
-        <div>
+        {/* <div>
           <Card className="border-0 shadow-none">
             <CardContent className="relative flex flex-col items-center justify-center bg-[#F5F3ED] p-6 sm:py-0">
               <div className="absolute top-5 right-8 3xl:right-10 text-3xl text-[#000000] bg-white cursor-pointer border border-solid border-[#000000] rounded-full shadow-[2px_2px_0_rgba(0,0,0,1)] p-2">
@@ -434,7 +567,7 @@ const Team: React.FC = () => {
               </p>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </div>
     </div>
   );

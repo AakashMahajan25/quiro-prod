@@ -1,13 +1,17 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import team1 from "@/assets/business/TeamCarousel1.png";
+
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import logo from "@/assets/Logo.png";
+import client2 from "@/assets/home/trusted/client2.jpeg"
+import client8 from "@/assets/home/trusted/client8.jpg"
+import client13 from "@/assets/home/trusted/client13.jpg"
+
 
 const teamMembers = [
   {
-    profileImage: team1,
+    profileImage: client2,
     name: "Rocky",
     text: "Hubs of Joy",
     description:
@@ -16,7 +20,7 @@ const teamMembers = [
       "The onboarding is seamless, they came, installed QRs & all, and we were live before you know it!",
   },
   {
-    profileImage: team1,
+    profileImage: client8,
     name: "Mayank",
     text: "Arctic hills",
     description:
@@ -25,7 +29,7 @@ const teamMembers = [
       "Quiro transformed the way we manage our kitchen—seamless and quick onboarding!",
   },
   {
-    profileImage: team1,
+    profileImage: client13,
     name: "Gaurav",
     text: "Hiker’s house",
     description:
@@ -101,7 +105,7 @@ const TeamCarousel: React.FC = () => {
                 <Image
                   src={member.profileImage}
                   alt={`${member.name}'s profile`}
-                  className="w-[48px] lg:w-[90.43px] mx-auto"
+                  className="w-[48px] lg:w-[90.43px] mx-auto rounded-full "
                 />
                 <h3 className="text-[13px] font-[500] leading-[19.5px] sm:text-[12.8px] sm:leading-[19.2px] lg:text-[24.11px] lg:leading-[36.17px] mt-[18px] lg:mt-[33.91px] text-[#000000]">
                   {member.name}
